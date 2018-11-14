@@ -4,6 +4,8 @@ Docker Development Setup  For PHP Apps
 Run in root folder,
 
 docker-compose build && docker-compose up -d
+
+
 Login to the container,
 
 docker exec -it server /bin/bash -c "TERM=$TERM exec bash"
